@@ -1,0 +1,110 @@
+.weui-cell__hd {
+    height: 34px;
+}
+.weui-cell__hd img {
+    margin-right: 15px;
+}
+body{
+  background-color: #fff;
+}
+.wepayui-bd{
+  background-color: #f0f0eb;
+}
+ul li {
+  list-style-type: none;
+}
+.wepayui-hd{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-flow: column wrap;
+}
+header.header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  background: #369cf2;
+  color: #fff;
+  height: 50px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.hd-title{
+  flex-direction: row;
+  align-items: center;
+  margin-left: -0.5em;
+}
+span.date{
+  font-size：16px;
+}
+.icon{
+  position: relative;
+  top: .25em;
+}
+.icon img{
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  max-width: 100%;
+}
+.account{
+  margin-right: -0.5em;
+}
+.account span {
+  font-size: 14px;
+  font-weight: 400;
+}
+nav.nav-tabs{
+  background-color: #fff;
+}
+ul.nav-list{
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+ul.nav-list li{
+  position: relative;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: inline-flex;
+  width: 33.3%;
+  padding: .5em;
+  font-size: 15px;
+  justify-content: center;
+}
+ul.nav-list li.active{
+  color: #369cf2;
+  position: relative;
+}
+ul.nav-list li.active:after{
+  content: "";
+  position: absolute;
+  width: 72%;
+  height: 4px;
+  bottom: 0;
+  left: 14%;
+  right:14%;
+  background: #369cf2;
+}
+/*retina屏一像素边框*/
+ul.nav-list::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height:1px;
+  width: 100%;
+	-webkit-transform: scaleY(0.5);
+	-webkit-transform-origin:0 0;
+	overflow: hidden;
+	background: #dbdbd7;
+}
+.tab-content{
+  display: none;
+}
+.nav-content{
+  margin-top: .5em;
+  background-color: #fff;
+}

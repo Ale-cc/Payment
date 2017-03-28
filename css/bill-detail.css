@@ -1,0 +1,62 @@
+.bill-hearten{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	background: #fff;
+	line-height: 30px;
+	padding: .1rem;
+}
+
+.bill-hearten h2{
+	width: 100%;
+	font-size: 16px;
+	color: #80807d;
+}
+.bill-hearten h3{
+	width: 100%;
+	font-size: 20px;
+	color: #ffab19;
+}
+.bill-cont{
+	width: 100%;
+	background: #fff;
+	margin-top: .12rem;	
+}
+.bill-detail{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 18px;
+	font-size: 13px;
+	padding: .1rem;
+	color: #80807d;
+}
+.bill-detail-left{
+	
+}
+.bill-detail-right{
+
+}
+.bill-detail.line{
+	border-top: 1px solid #dbdbd7;
+}
+
+/* 提现金额页面 */
+.bill-hearten .sum.special{
+	color: #000;
+}
+.bill-detail-right.special{
+	color: #ffab19;
+}
+
+
+
+
+
+
+
+
+
+

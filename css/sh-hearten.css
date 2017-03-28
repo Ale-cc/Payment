@@ -1,0 +1,93 @@
+.hearten{
+	width: 100%;
+	background: #369cf2;
+	padding: .2rem;
+	display: flex;
+	color: #fff;
+	flex-wrap:wrap;
+	text-align:  center;
+}
+.hearten h2{
+	width: 100%;
+	font-size: 16px;
+	line-height:60px;
+	font-weight: normal;
+}
+.hearten h3{
+	width: 100%;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 40px;
+}
+.hearten h4{
+	width: 100%;
+	font-size: 10px;
+}
+/* 提现 */
+.hearten-tix{
+	padding: .1rem;
+	width: 100%;
+	background: #fff;
+}
+.hearten-tix h2{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.draw-money{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: .14rem 0;
+}
+.draw-money span{
+	font-size: 22px;
+}
+.draw-money input{
+	width: 100%;
+	padding-left: 14px;
+	border: none;
+	font-size: 14px;
+}
+.prompt{
+	width: 100%;
+	color: #ff474c;
+	padding: .1rem;
+	font-size: 14px;
+	margin-bottom: 1rem;
+}
+.submit{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.submit a.btn{
+	padding: .08rem 1.2rem;
+	background: #369cf1;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.protocol{
+	width: 100%;
+	margin-top: .12rem;
+	display: flex;
+	justify-content: center;
+}
+.protocol a{
+	color: #369cf1;
+	font-size: 10px;
+	padding: 0 .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

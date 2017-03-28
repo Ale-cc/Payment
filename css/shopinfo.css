@@ -1,0 +1,29 @@
+header.header.shop-info-bg{
+  height: 2rem;
+  background: #fff;
+  flex-flow: row wrap;
+}
+.shop-info-hd {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+span.shop-info-logo {
+  width: 100%;
+  margin-bottom: .5em;
+}
+h3.shop-info-name {
+  font-size: 16px;
+  color: #333;
+}
+.shop-info-logo img {
+  width: 60px;
+}
+.shop-info-bd, ol.shop-bd-info{
+  width: 100%;
+}
+li.shop-info-action {
+  width: 50%;
+}

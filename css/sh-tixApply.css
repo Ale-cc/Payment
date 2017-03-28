@@ -1,0 +1,71 @@
+.apply{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	background: #fff;
+}
+.applyImg{
+	width: 100%;
+	padding: .2rem 1.3rem .05rem 1.3rem;
+}
+.applyImg img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+.apply h2{
+	margin-bottom: .2rem;
+	font-size: 18px;
+	color: #424241;
+}
+
+.apply-cont{
+	width: 100%;
+	margin-top: .12rem;
+	padding: .1rem;
+	background: #fff;
+}
+.apply-detail{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 36px;
+	font-size: 14px;
+}
+.apply-detail-left{
+	color: #80807d;
+}
+.apply-detail-right{
+	color: #424241;
+}
+
+/* 按钮 */
+.submit{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+.submit a.btn{
+	padding: .08rem .8rem;
+	background: #369cf1;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

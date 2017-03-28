@@ -1,0 +1,144 @@
+.login{
+	width: 100%;
+	margin-top: .12rem;
+	background: #fff;
+	border-top: 1px #f0f0f0 solid;
+}
+.login-con{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: .1rem;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.name{
+	width: 1.2rem;
+	font-size: 15px;
+	line-height: 20px;
+}
+.name span{
+	color: #ff474c;
+}
+.cont {
+	width: 100%;
+	
+}
+.cont input{
+	width: 100%;
+	border: none;
+	background: none;
+	color: #999;
+	font-size: 14px;
+}
+.cont input:invalid, textarea:invalid{
+	box-shadow: none;
+}
+.prompt{
+	width: 100%;
+	color: #ff474c;
+	padding: .1rem;
+	font-size: 12px;
+	margin-bottom: 1rem;
+}
+.submit{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.submit a.btn{
+	padding: .08rem .8rem;
+	background: #369cf1;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.protocol{
+	width: 100%;
+	margin-top: .12rem;
+	display: flex;
+	justify-content: center;
+}
+.protocol a{
+	color: #369cf1;
+}
+
+.mistake{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #ff474c;
+	line-height: 40px;
+}
+
+
+
+/* 弹出框 */
+.weui-mask {
+	background: rgba(0, 0, 0, .6);
+}
+.weui-mask, .weui-mask_transparent {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.weui-dialog {
+	position: fixed;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	width: 70%;
+	max-width: 300px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.weui-dialog__ft{
+	display: flex;
+	justify-content: center;
+}
+.weui-dialog__bd{
+	line-height: 50px;
+	font-size: 16px;
+}
+.weui-dialog__btn{
+	display: block;
+	width: 100px;
+	padding: .2rem;
+
+}
+.weui-dialog__btn img{
+	width: 100%;
+}
+@media screen and (min-width:1024px){.weui-dialog{width:35%}
+}
+
+
+/*等待审核页*/
+.awaitImg{
+	width: 100%;
+	padding: .4rem 1.3rem .1rem 1.3rem;
+}
+.awaitImg img{
+	 width: 100%;
+}
+.await{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	color: #424241;
+}
+.result{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #80807d;
+}
+
